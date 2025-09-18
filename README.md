@@ -118,5 +118,3 @@ SSDT Hooking thay đổi entry trong SSDT để chuyển hướng system call đ
 \- Sigcheck / signtool: kiểm tra chữ ký.
 
 \- EDR / HIPS: phát hiện hook/injection, cảnh báo runtime.
-
-\- Snapshots / VM-based lab: thực nghiệm an toàn, so sánh trước / sau.
