@@ -19,7 +19,7 @@ IAT Hooking chỉ ảnh hưởng đến một module, tức là nếu hook Messa
 
 IAT Hooking chỉ ảnh hưởng đến process hiện tại, không ảnh hưởng đến toàn bộ hệ thống hoặc các process khác.
 
-Ghi chú: Kết quả khi quét bằng VT thường không bị đánh dấu là độc vì hook API lành tính (ví dụ CreateFileW) có thể được xem như hành vi debug/monitor.
+
 
 
 
@@ -35,7 +35,6 @@ EAT Hooking nhằm can thiệp vào quá trình gọi hàm xuất (exported func
 
 EAT Hooking ảnh hưởng tới tất cả các module được load sau khi việc hooking diễn ra — tức là sửa EAT của user32.dll để MessageBoxA trỏ đến hàm giả thì mọi module sau đó gọi MessageBoxA qua user32.dll đều bị ảnh hưởng (kể cả plugin DLL được load sau đó).
 
-Demo: Notepad không gọi CreateFileW qua EAT mà thường gọi từ IAT hoặc qua ntdll nên demo EAT thường không áp dụng với Notepad.
 
 
 
