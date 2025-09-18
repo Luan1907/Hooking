@@ -1,5 +1,5 @@
 # Hooking
-# IAT / EAT / Inline Hooking / SSDT — Tài liệu (Phòng thủ & Phân tích)
+# IAT / EAT / SSDT / Inline Hooking
 
 ## Import Address Table (IAT)
 
